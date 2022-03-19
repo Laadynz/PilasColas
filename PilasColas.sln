@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilasColas", "PilasColas\PilasColas.csproj", "{1FE78E92-7A05-4456-B273-59B51968C20C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arreglos", "Arreglos\Arreglos.csproj", "{C5B0226A-6E9B-4EA2-A1A7-3FDF0FB64161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas", "Listas\Listas.csproj", "{4CEABEEF-B4A4-46E7-9BB3-3051F0C2F646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1FE78E92-7A05-4456-B273-59B51968C20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE78E92-7A05-4456-B273-59B51968C20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE78E92-7A05-4456-B273-59B51968C20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B0226A-6E9B-4EA2-A1A7-3FDF0FB64161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B0226A-6E9B-4EA2-A1A7-3FDF0FB64161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B0226A-6E9B-4EA2-A1A7-3FDF0FB64161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B0226A-6E9B-4EA2-A1A7-3FDF0FB64161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEABEEF-B4A4-46E7-9BB3-3051F0C2F646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEABEEF-B4A4-46E7-9BB3-3051F0C2F646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEABEEF-B4A4-46E7-9BB3-3051F0C2F646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEABEEF-B4A4-46E7-9BB3-3051F0C2F646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
