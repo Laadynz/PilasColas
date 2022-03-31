@@ -1,4 +1,4 @@
-﻿using Arreglos; 
+﻿using Arreglos;
 using Listas;
 
 Arreglos.Pilas pilas = new Arreglos.Pilas(10);
@@ -10,7 +10,7 @@ pilas.Agregar("cuatro");
 pilas.Agregar("cinco");
 Console.WriteLine(pilas.Imprimir());
 
-for (int i = 0; i < 10; i++) 
+for (int i = 0; i < 10; i++)
 {
     try
     {
@@ -21,8 +21,8 @@ for (int i = 0; i < 10; i++)
     catch (Exception ex)
     {
 
-        Console.WriteLine(ex.Message); 
+        Console.WriteLine(ex.Message);
     }
-    
-    
+
+
 }
