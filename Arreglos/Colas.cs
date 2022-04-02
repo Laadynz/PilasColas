@@ -61,7 +61,7 @@ namespace Arreglos
                 {
                     datos += "\n";
                 }
-                datos += "[{i}] - {array[i]}";
+                datos += $"[{i}] - {array[i]}";
             }
             return datos;
         }
