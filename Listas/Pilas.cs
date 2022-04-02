@@ -19,9 +19,16 @@ namespace Listas
             lista.Add(dato);
         }
 
-        private bool ValidaVacio() 
+        private bool ValidaVacio()
         {
-            return (lista.Count == 0);
+            if (lista.Count == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
         public void Eliminar() 
@@ -36,7 +43,7 @@ namespace Listas
 
         public string Imprimir() 
         {
-            string datos = string.Empty;
+            string datos = "";
 
             if (ValidaVacio()) 
             {
@@ -46,12 +53,12 @@ namespace Listas
             int lstCount = lista.Count;
             for (int i = 0; i < lstCount; i++) 
             {
-                if (1 > 0) 
+                if (i > 0) 
                 {
-                    datos += "/n";
+                    datos += "\n";
                 }
 
-                datos += $"[{i}] - [lista{i}]";
+                datos += $"[{i}] - {lista[i]}";
             }
 
             return datos;
